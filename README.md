@@ -60,9 +60,6 @@ For the GPS implementation and the dual Kalman filter,
 
 `ros2 launch nova_bringup gps.launch.py`
 
-
----
-
 ### **Interacting in RViz**
 
 1. **Set the Initial Pose:**

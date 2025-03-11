@@ -86,4 +86,6 @@ Please continue with the ROS2 and Nav2 tutorials here
 
 https://docs.nav2.org/setup_guides/index.html#table-of-contents
 
+https://docs.nav2.org/tutorials/docs/navigation2_with_gps.html
+
 Follow the list on the right that says “Gazebo classic”

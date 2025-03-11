@@ -17,6 +17,7 @@
 If necessary, input these commands to download necessary packages.
 
 `sudo apt update`
+
 `sudo apt install python3-colcon-common-extensions`
 
 `sudo apt install ros-humble-navigation2 ros-humble-nav2-core`

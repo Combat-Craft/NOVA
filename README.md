@@ -56,6 +56,9 @@ Alternatively, launch the entire nav2 stack with
 
 RViz2 will open with a default view showing the laser scan map, robot model, and TF data.
 
+For the GPS implementation and the dual Kalman filter, 
+
+`ros2 launch nova_bringup gps.launch.py`
 ---
 
 ### **Interacting in RViz**
@@ -76,7 +79,9 @@ If Gazebo claims you have processes running,  type
 
 `killall -9 gazebo gzserver gzclient`
 
-Going forward: All goals fail. We need to fix this.  Your input is needed!
+Going forward: 
+- All NAV2 goals fail. We need to fix this.  Your input is needed!
+- The GPS simulation is not publishing any data.  Why is that?
 
 Please continue with the ROS2 and Nav2 tutorials here 
 

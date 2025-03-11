@@ -59,6 +59,8 @@ RViz2 will open with a default view showing the laser scan map, robot model, and
 For the GPS implementation and the dual Kalman filter, 
 
 `ros2 launch nova_bringup gps.launch.py`
+
+
 ---
 
 ### **Interacting in RViz**

@@ -82,10 +82,12 @@ Going forward:
 - All NAV2 goals fail. We need to fix this.  Your input is needed!
 - The GPS simulation is not publishing any data.  Why is that?
 
-Please continue with the ROS2 and Nav2 tutorials here 
+Please continue with the ROS2 tutorials and Nav2 tutorials here 
 
 https://docs.nav2.org/setup_guides/index.html#table-of-contents
 
-https://docs.nav2.org/tutorials/docs/navigation2_with_gps.html
-
 Follow the list on the right that says “Gazebo classic”
+
+Then do this one 
+
+https://docs.nav2.org/tutorials/docs/navigation2_with_gps.html

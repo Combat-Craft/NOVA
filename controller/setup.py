@@ -1,19 +1,24 @@
 from setuptools import find_packages, setup
+import glob
+import os
 
 package_name = 'controller'
 
 setup(
     name=package_name,
     version='0.0.0',
-    packages=[package_name],
+    packages=find_packages(exclude=['test']),
     data_files=[
-        ('share/' + package_name + '/launch', ['launch/joystick.launch.py', 'launch/motor.launch.py']),
-        ('share/' + package_name + '/config', ['config/joystick.yaml']),
+        ('share/ament_index/resource_index/packages',
+         ['resource/' + package_name]),
+        ('share/' + package_name, ['package.xml']),
+        (os.path.join("share/", package_name, "launch/"), glob.glob("launch/*.launch.py")),
+        (os.path.join("share/", package_name, "config/"), glob.glob("config/*.yaml")), 
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='rida-e',
-    maintainer_email='rida-e@todo.todo',
+    maintainer='rida2',
+    maintainer_email='rida2@todo.todo',
     description='TODO: Package description',
     license='TODO: License declaration',
     tests_require=['pytest'],
@@ -23,6 +28,7 @@ setup(
             'motor= controller.motor:main',
             'motor_driver = controller.motor_driver:main', # This points to the joystick.py file
             'joystick_to_motor = controller.joystick_to_motor:main'
+        
         ],
     },
 )

@@ -12,19 +12,18 @@ class JoystickToMotor(Node):
         # Declare parameters
         self.declare_parameter('deadzone', 0.1)
         self.declare_parameter('max_velocity', 250)
-        self.declare_parameter('turbo_button', 4)
+        self.declare_parameter('turbo_button', 5)
         self.declare_parameter('turbo_scale', 2.0)  # Turbo scale factor
-        self.declare_parameter('enable_button', 5)
+
         # Get parameters
         self.deadzone = self.get_parameter('deadzone').value
         self.max_velocity = self.get_parameter('max_velocity').value
         self.turbo_button = self.get_parameter('turbo_button').value
-        self.enable_button = self.get_parameter('enable_button').value
         self.turbo_scale = self.get_parameter('turbo_scale').value
 
         # Log parameters for debugging
         self.get_logger().info(f"Deadzone: {self.deadzone}, Max Velocity: {self.max_velocity}, "
-                               f"Turbo Button: {self.turbo_button}, Turbo Scale: {self.turbo_scale}, Enable Button: {self.enable_button}")
+                               f"Turbo Button: {self.turbo_button}, Turbo Scale: {self.turbo_scale}")
 
         # Setup Joystick Subscription
         self.joystick_sub = self.create_subscription(

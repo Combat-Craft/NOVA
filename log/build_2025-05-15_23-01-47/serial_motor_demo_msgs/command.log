@@ -1,1 +1,0 @@
-Invoking command in '/home/ahmedtabl/NOVA/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ahmedtabl/NOVA/build/serial_motor_demo_msgs -- -j4 -l4

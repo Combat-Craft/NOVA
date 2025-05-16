@@ -1,5 +1,0 @@
-[31mCMake Error at cmake_install.cmake:46 (file):
-  file INSTALL cannot find "/home/ahmedtabl/NOVA/src/nova_description/src":
-  No such file or directory.
-
-[0m

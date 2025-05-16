@@ -1,0 +1,23 @@
+[0.111s] Invoking command in '/home/ahmedtabl/NOVA/build/nova_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ahmedtabl/NOVA/install/serial_motor_demo:/home/ahmedtabl/NOVA/install/controller:/opt/ros/humble /usr/bin/cmake --build /home/ahmedtabl/NOVA/build/nova_description -- -j4 -l4
+[1.293s] Invoked command in '/home/ahmedtabl/NOVA/build/nova_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ahmedtabl/NOVA/install/serial_motor_demo:/home/ahmedtabl/NOVA/install/controller:/opt/ros/humble /usr/bin/cmake --build /home/ahmedtabl/NOVA/build/nova_description -- -j4 -l4
+[1.339s] Invoking command in '/home/ahmedtabl/NOVA/build/nova_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ahmedtabl/NOVA/install/serial_motor_demo:/home/ahmedtabl/NOVA/install/controller:/opt/ros/humble /usr/bin/cmake --install /home/ahmedtabl/NOVA/build/nova_description
+[1.376s] -- Install configuration: ""
+[1.376s] -- Up-to-date: /home/ahmedtabl/NOVA/install/nova_description/share/nova_description/urdf
+[1.377s] -- Up-to-date: /home/ahmedtabl/NOVA/install/nova_description/share/nova_description/urdf/nova_camera.urdf
+[1.377s] -- Up-to-date: /home/ahmedtabl/NOVA/install/nova_description/share/nova_description/urdf/nova_gps.urdf
+[1.377s] -- Up-to-date: /home/ahmedtabl/NOVA/install/nova_description/share/ament_index/resource_index/package_run_dependencies/nova_description
+[1.377s] -- Up-to-date: /home/ahmedtabl/NOVA/install/nova_description/share/ament_index/resource_index/parent_prefix_path/nova_description
+[1.377s] -- Up-to-date: /home/ahmedtabl/NOVA/install/nova_description/share/nova_description/environment/ament_prefix_path.sh
+[1.377s] -- Up-to-date: /home/ahmedtabl/NOVA/install/nova_description/share/nova_description/environment/ament_prefix_path.dsv
+[1.377s] -- Up-to-date: /home/ahmedtabl/NOVA/install/nova_description/share/nova_description/environment/path.sh
+[1.377s] -- Up-to-date: /home/ahmedtabl/NOVA/install/nova_description/share/nova_description/environment/path.dsv
+[1.378s] -- Up-to-date: /home/ahmedtabl/NOVA/install/nova_description/share/nova_description/local_setup.bash
+[1.378s] -- Up-to-date: /home/ahmedtabl/NOVA/install/nova_description/share/nova_description/local_setup.sh
+[1.378s] -- Up-to-date: /home/ahmedtabl/NOVA/install/nova_description/share/nova_description/local_setup.zsh
+[1.378s] -- Up-to-date: /home/ahmedtabl/NOVA/install/nova_description/share/nova_description/local_setup.dsv
+[1.378s] -- Up-to-date: /home/ahmedtabl/NOVA/install/nova_description/share/nova_description/package.dsv
+[1.378s] -- Up-to-date: /home/ahmedtabl/NOVA/install/nova_description/share/ament_index/resource_index/packages/nova_description
+[1.378s] -- Up-to-date: /home/ahmedtabl/NOVA/install/nova_description/share/nova_description/cmake/nova_descriptionConfig.cmake
+[1.379s] -- Up-to-date: /home/ahmedtabl/NOVA/install/nova_description/share/nova_description/cmake/nova_descriptionConfig-version.cmake
+[1.379s] -- Up-to-date: /home/ahmedtabl/NOVA/install/nova_description/share/nova_description/package.xml
+[1.392s] Invoked command in '/home/ahmedtabl/NOVA/build/nova_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ahmedtabl/NOVA/install/serial_motor_demo:/home/ahmedtabl/NOVA/install/controller:/opt/ros/humble /usr/bin/cmake --install /home/ahmedtabl/NOVA/build/nova_description

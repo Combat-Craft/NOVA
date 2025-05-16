@@ -1,0 +1,22 @@
+[0.057s] Invoking command in '/home/ahmedtabl/NOVA/build/nova_gazebo': CMAKE_PREFIX_PATH=/home/ahmedtabl/NOVA/install/nova_description:/home/ahmedtabl/NOVA/install/serial_motor_demo_msgs:/home/ahmedtabl/NOVA/install/nova_gazebo:/home/ahmedtabl/NOVA/install/nova_bringup:/home/ahmedtabl/NOVA/install/serial_motor_demo:/home/ahmedtabl/NOVA/install/controller:/opt/ros/humble /usr/bin/cmake --build /home/ahmedtabl/NOVA/build/nova_gazebo -- -j4 -l4
+[0.267s] Invoked command in '/home/ahmedtabl/NOVA/build/nova_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/ahmedtabl/NOVA/install/nova_description:/home/ahmedtabl/NOVA/install/serial_motor_demo_msgs:/home/ahmedtabl/NOVA/install/nova_gazebo:/home/ahmedtabl/NOVA/install/nova_bringup:/home/ahmedtabl/NOVA/install/serial_motor_demo:/home/ahmedtabl/NOVA/install/controller:/opt/ros/humble /usr/bin/cmake --build /home/ahmedtabl/NOVA/build/nova_gazebo -- -j4 -l4
+[0.270s] Invoking command in '/home/ahmedtabl/NOVA/build/nova_gazebo': CMAKE_PREFIX_PATH=/home/ahmedtabl/NOVA/install/nova_description:/home/ahmedtabl/NOVA/install/serial_motor_demo_msgs:/home/ahmedtabl/NOVA/install/nova_gazebo:/home/ahmedtabl/NOVA/install/nova_bringup:/home/ahmedtabl/NOVA/install/serial_motor_demo:/home/ahmedtabl/NOVA/install/controller:/opt/ros/humble /usr/bin/cmake --install /home/ahmedtabl/NOVA/build/nova_gazebo
+[0.309s] -- Install configuration: ""
+[0.309s] -- Up-to-date: /home/ahmedtabl/NOVA/install/nova_gazebo/share/nova_gazebo/worlds
+[0.310s] -- Up-to-date: /home/ahmedtabl/NOVA/install/nova_gazebo/share/nova_gazebo/worlds/my_world.sdf
+[0.311s] -- Up-to-date: /home/ahmedtabl/NOVA/install/nova_gazebo/share/ament_index/resource_index/package_run_dependencies/nova_gazebo
+[0.312s] -- Up-to-date: /home/ahmedtabl/NOVA/install/nova_gazebo/share/ament_index/resource_index/parent_prefix_path/nova_gazebo
+[0.312s] -- Up-to-date: /home/ahmedtabl/NOVA/install/nova_gazebo/share/nova_gazebo/environment/ament_prefix_path.sh
+[0.312s] -- Up-to-date: /home/ahmedtabl/NOVA/install/nova_gazebo/share/nova_gazebo/environment/ament_prefix_path.dsv
+[0.312s] -- Up-to-date: /home/ahmedtabl/NOVA/install/nova_gazebo/share/nova_gazebo/environment/path.sh
+[0.312s] -- Up-to-date: /home/ahmedtabl/NOVA/install/nova_gazebo/share/nova_gazebo/environment/path.dsv
+[0.312s] -- Up-to-date: /home/ahmedtabl/NOVA/install/nova_gazebo/share/nova_gazebo/local_setup.bash
+[0.313s] -- Up-to-date: /home/ahmedtabl/NOVA/install/nova_gazebo/share/nova_gazebo/local_setup.sh
+[0.314s] -- Up-to-date: /home/ahmedtabl/NOVA/install/nova_gazebo/share/nova_gazebo/local_setup.zsh
+[0.314s] -- Up-to-date: /home/ahmedtabl/NOVA/install/nova_gazebo/share/nova_gazebo/local_setup.dsv
+[0.314s] -- Up-to-date: /home/ahmedtabl/NOVA/install/nova_gazebo/share/nova_gazebo/package.dsv
+[0.315s] -- Up-to-date: /home/ahmedtabl/NOVA/install/nova_gazebo/share/ament_index/resource_index/packages/nova_gazebo
+[0.315s] -- Up-to-date: /home/ahmedtabl/NOVA/install/nova_gazebo/share/nova_gazebo/cmake/nova_gazeboConfig.cmake
+[0.315s] -- Up-to-date: /home/ahmedtabl/NOVA/install/nova_gazebo/share/nova_gazebo/cmake/nova_gazeboConfig-version.cmake
+[0.315s] -- Up-to-date: /home/ahmedtabl/NOVA/install/nova_gazebo/share/nova_gazebo/package.xml
+[0.320s] Invoked command in '/home/ahmedtabl/NOVA/build/nova_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/ahmedtabl/NOVA/install/nova_description:/home/ahmedtabl/NOVA/install/serial_motor_demo_msgs:/home/ahmedtabl/NOVA/install/nova_gazebo:/home/ahmedtabl/NOVA/install/nova_bringup:/home/ahmedtabl/NOVA/install/serial_motor_demo:/home/ahmedtabl/NOVA/install/controller:/opt/ros/humble /usr/bin/cmake --install /home/ahmedtabl/NOVA/build/nova_gazebo

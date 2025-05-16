@@ -1,0 +1,47 @@
+[4.377s] Invoking command in '/home/ahmedtabl/NOVA/src/controller': PYTHONPATH=/home/ahmedtabl/NOVA/build/controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ahmedtabl/NOVA/install/controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/controller build --build-base /home/ahmedtabl/NOVA/build/controller/build install --record /home/ahmedtabl/NOVA/build/controller/install.log --single-version-externally-managed install_data
+[5.152s] running egg_info
+[5.153s] creating ../../build/controller/controller.egg-info
+[5.153s] writing ../../build/controller/controller.egg-info/PKG-INFO
+[5.154s] writing dependency_links to ../../build/controller/controller.egg-info/dependency_links.txt
+[5.157s] writing entry points to ../../build/controller/controller.egg-info/entry_points.txt
+[5.157s] writing requirements to ../../build/controller/controller.egg-info/requires.txt
+[5.157s] writing top-level names to ../../build/controller/controller.egg-info/top_level.txt
+[5.159s] writing manifest file '../../build/controller/controller.egg-info/SOURCES.txt'
+[5.168s] reading manifest file '../../build/controller/controller.egg-info/SOURCES.txt'
+[5.168s] writing manifest file '../../build/controller/controller.egg-info/SOURCES.txt'
+[5.169s] running build
+[5.169s] running build_py
+[5.172s] creating /home/ahmedtabl/NOVA/build/controller/build
+[5.172s] creating /home/ahmedtabl/NOVA/build/controller/build/lib
+[5.172s] creating /home/ahmedtabl/NOVA/build/controller/build/lib/controller
+[5.172s] copying controller/__init__.py -> /home/ahmedtabl/NOVA/build/controller/build/lib/controller
+[5.173s] copying controller/motor_driver.py -> /home/ahmedtabl/NOVA/build/controller/build/lib/controller
+[5.174s] copying controller/joystick_to_motor.py -> /home/ahmedtabl/NOVA/build/controller/build/lib/controller
+[5.177s] running install
+[5.179s] running install_lib
+[5.186s] creating /home/ahmedtabl/NOVA/install/controller/lib/python3.10/site-packages/controller
+[5.186s] copying /home/ahmedtabl/NOVA/build/controller/build/lib/controller/__init__.py -> /home/ahmedtabl/NOVA/install/controller/lib/python3.10/site-packages/controller
+[5.186s] copying /home/ahmedtabl/NOVA/build/controller/build/lib/controller/motor_driver.py -> /home/ahmedtabl/NOVA/install/controller/lib/python3.10/site-packages/controller
+[5.187s] copying /home/ahmedtabl/NOVA/build/controller/build/lib/controller/joystick_to_motor.py -> /home/ahmedtabl/NOVA/install/controller/lib/python3.10/site-packages/controller
+[5.191s] byte-compiling /home/ahmedtabl/NOVA/install/controller/lib/python3.10/site-packages/controller/__init__.py to __init__.cpython-310.pyc
+[5.191s] byte-compiling /home/ahmedtabl/NOVA/install/controller/lib/python3.10/site-packages/controller/motor_driver.py to motor_driver.cpython-310.pyc
+[5.194s] byte-compiling /home/ahmedtabl/NOVA/install/controller/lib/python3.10/site-packages/controller/joystick_to_motor.py to joystick_to_motor.cpython-310.pyc
+[5.196s] running install_data
+[5.196s] creating /home/ahmedtabl/NOVA/install/controller/share/ament_index
+[5.197s] creating /home/ahmedtabl/NOVA/install/controller/share/ament_index/resource_index
+[5.197s] creating /home/ahmedtabl/NOVA/install/controller/share/ament_index/resource_index/packages
+[5.197s] copying resource/controller -> /home/ahmedtabl/NOVA/install/controller/share/ament_index/resource_index/packages
+[5.200s] copying package.xml -> /home/ahmedtabl/NOVA/install/controller/share/controller
+[5.200s] creating /home/ahmedtabl/NOVA/install/controller/share/controller/launch
+[5.201s] copying launch/joystick.launch.py -> /home/ahmedtabl/NOVA/install/controller/share/controller/launch/
+[5.202s] copying launch/motor.launch.py -> /home/ahmedtabl/NOVA/install/controller/share/controller/launch/
+[5.204s] creating /home/ahmedtabl/NOVA/install/controller/share/controller/config
+[5.204s] copying config/joystick.yaml -> /home/ahmedtabl/NOVA/install/controller/share/controller/config/
+[5.206s] running install_egg_info
+[5.212s] Copying ../../build/controller/controller.egg-info to /home/ahmedtabl/NOVA/install/controller/lib/python3.10/site-packages/controller-0.0.0-py3.10.egg-info
+[5.215s] running install_scripts
+[5.284s] Installing joystick script to /home/ahmedtabl/NOVA/install/controller/lib/controller
+[5.285s] Installing joystick_to_motor script to /home/ahmedtabl/NOVA/install/controller/lib/controller
+[5.285s] Installing motor script to /home/ahmedtabl/NOVA/install/controller/lib/controller
+[5.286s] Installing motor_driver script to /home/ahmedtabl/NOVA/install/controller/lib/controller
+[5.286s] writing list of installed files to '/home/ahmedtabl/NOVA/build/controller/install.log'

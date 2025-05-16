@@ -1,0 +1,132 @@
+[0.039s] Invoking command in '/home/ahmedtabl/NOVA/build/nova_gazebo': AMENT_PREFIX_PATH=/home/ahmedtabl/NOVA/install/nova_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ahmedtabl/NOVA/install/nova_description:/opt/ros/humble /usr/bin/cmake /home/ahmedtabl/NOVA/src/nova_gazebo -DCMAKE_INSTALL_PREFIX=/home/ahmedtabl/NOVA/install/nova_gazebo
+[0.246s] -- The C compiler identification is GNU 11.4.0
+[0.475s] -- The CXX compiler identification is GNU 11.4.0
+[0.512s] -- Detecting C compiler ABI info
+[0.836s] -- Detecting C compiler ABI info - done
+[0.889s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.891s] -- Detecting C compile features
+[0.894s] -- Detecting C compile features - done
+[0.911s] -- Detecting CXX compiler ABI info
+[1.232s] -- Detecting CXX compiler ABI info - done
+[1.266s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.268s] -- Detecting CXX compile features
+[1.272s] -- Detecting CXX compile features - done
+[1.281s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.771s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.154s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[2.384s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.401s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.430s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.472s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.541s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.842s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.865s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.400s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.527s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.681s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.761s] -- Looking for pthread.h
+[4.052s] -- Looking for pthread.h - found
+[4.053s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.331s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.334s] -- Found Threads: TRUE  
+[4.672s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[4.737s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[4.743s] -- Checking for module 'bullet>=2.82'
+[4.805s] --   Found bullet, version 3.05
+[5.319s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[5.561s] -- Found assimp: /usr/include (found version "5.2.0") 
+[5.703s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[5.877s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[5.975s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[6.010s] -- Looking for ignition-math6 -- found version 6.15.1
+[6.061s] -- Searching for dependencies of ignition-math6
+[6.076s] -- Looking for OGRE...
+[6.078s] -- OGRE_PREFIX_WATCH changed.
+[6.099s] -- Checking for module 'OGRE'
+[6.164s] --   Found OGRE, version 1.9.0
+[6.362s] -- Found Ogre Ghadamon (1.9.0)
+[6.386s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[6.415s] -- Looking for OGRE_Paging...
+[6.437s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[6.438s] -- Looking for OGRE_Terrain...
+[6.458s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[6.459s] -- Looking for OGRE_Property...
+[6.477s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[6.477s] -- Looking for OGRE_RTShaderSystem...
+[6.496s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[6.497s] -- Looking for OGRE_Volume...
+[6.516s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[6.517s] -- Looking for OGRE_Overlay...
+[6.540s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[6.955s] -- Looking for ignition-math6 -- found version 6.15.1
+[6.969s] -- Looking for ignition-transport8 -- found version 8.2.1
+[6.970s] -- Searching for dependencies of ignition-transport8
+[7.039s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[7.079s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[7.098s] -- Checking for module 'libzmq >= 4'
+[7.176s] --   Found libzmq , version 4.3.4
+[7.348s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[7.379s] -- Checking for module 'uuid'
+[7.446s] --   Found uuid, version 2.37.2
+[7.600s] -- Found UUID: TRUE  
+[7.622s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[7.626s] -- Searching for dependencies of ignition-msgs5
+[7.691s] -- Looking for ignition-math6 -- found version 6.15.1
+[7.711s] -- Checking for module 'tinyxml2'
+[7.774s] --   Found tinyxml2, version 9.0.0
+[7.950s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[7.967s] -- Looking for ignition-common3 -- found version 3.14.0
+[7.969s] -- Searching for dependencies of ignition-common3
+[7.971s] -- Looking for dlfcn.h - found
+[7.975s] -- Looking for libdl - found
+[7.978s] -- Found DL: TRUE  
+[8.027s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[8.031s] -- Searching for <ignition-common3> component [graphics]
+[8.046s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[8.048s] -- Searching for dependencies of ignition-common3-graphics
+[8.051s] -- Looking for ignition-math6 -- found version 6.15.1
+[8.071s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[8.072s] -- Searching for dependencies of ignition-fuel_tools4
+[8.421s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[8.467s] -- Checking for module 'jsoncpp'
+[8.528s] --   Found jsoncpp, version 1.9.5
+[8.691s] -- Found JSONCPP: TRUE  
+[8.721s] -- Checking for module 'libzip'
+[8.781s] --   Found libzip, version 1.7.3
+[8.968s] -- Found ZIP: TRUE  
+[8.969s] -- Looking for ignition-common3 -- found version 3.14.0
+[8.971s] -- Looking for ignition-math6 -- found version 6.15.1
+[8.973s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[8.998s] -- Gazebo version: 11.10
+[8.998s] -- Checking for module 'tbb'
+[9.058s] --   Found tbb, version 2021.5.0
+[9.244s] -- Found ros_gz_sim: 0.244.16 (/opt/ros/humble/share/ros_gz_sim/cmake)
+[9.262s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[9.508s] -- Added test 'lint_cmake' to check CMake code style
+[9.511s] -- Added test 'xmllint' to check XML markup files
+[9.516s] -- Configuring done
+[9.536s] -- Generating done
+[9.546s] -- Build files have been written to: /home/ahmedtabl/NOVA/build/nova_gazebo
+[9.594s] Invoked command in '/home/ahmedtabl/NOVA/build/nova_gazebo' returned '0': AMENT_PREFIX_PATH=/home/ahmedtabl/NOVA/install/nova_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ahmedtabl/NOVA/install/nova_description:/opt/ros/humble /usr/bin/cmake /home/ahmedtabl/NOVA/src/nova_gazebo -DCMAKE_INSTALL_PREFIX=/home/ahmedtabl/NOVA/install/nova_gazebo
+[9.595s] Invoking command in '/home/ahmedtabl/NOVA/build/nova_gazebo': AMENT_PREFIX_PATH=/home/ahmedtabl/NOVA/install/nova_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ahmedtabl/NOVA/install/nova_description:/opt/ros/humble /usr/bin/cmake --build /home/ahmedtabl/NOVA/build/nova_gazebo -- -j4 -l4
+[9.749s] Invoked command in '/home/ahmedtabl/NOVA/build/nova_gazebo' returned '0': AMENT_PREFIX_PATH=/home/ahmedtabl/NOVA/install/nova_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ahmedtabl/NOVA/install/nova_description:/opt/ros/humble /usr/bin/cmake --build /home/ahmedtabl/NOVA/build/nova_gazebo -- -j4 -l4
+[9.755s] Invoking command in '/home/ahmedtabl/NOVA/build/nova_gazebo': AMENT_PREFIX_PATH=/home/ahmedtabl/NOVA/install/nova_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ahmedtabl/NOVA/install/nova_description:/opt/ros/humble /usr/bin/cmake --install /home/ahmedtabl/NOVA/build/nova_gazebo
+[9.780s] -- Install configuration: ""
+[9.781s] -- Installing: /home/ahmedtabl/NOVA/install/nova_gazebo/share/nova_gazebo/worlds
+[9.782s] -- Installing: /home/ahmedtabl/NOVA/install/nova_gazebo/share/nova_gazebo/worlds/my_world.sdf
+[9.791s] -- Installing: /home/ahmedtabl/NOVA/install/nova_gazebo/share/ament_index/resource_index/package_run_dependencies/nova_gazebo
+[9.792s] -- Installing: /home/ahmedtabl/NOVA/install/nova_gazebo/share/ament_index/resource_index/parent_prefix_path/nova_gazebo
+[9.792s] -- Installing: /home/ahmedtabl/NOVA/install/nova_gazebo/share/nova_gazebo/environment/ament_prefix_path.sh
+[9.793s] -- Installing: /home/ahmedtabl/NOVA/install/nova_gazebo/share/nova_gazebo/environment/ament_prefix_path.dsv
+[9.793s] -- Installing: /home/ahmedtabl/NOVA/install/nova_gazebo/share/nova_gazebo/environment/path.sh
+[9.793s] -- Installing: /home/ahmedtabl/NOVA/install/nova_gazebo/share/nova_gazebo/environment/path.dsv
+[9.795s] -- Installing: /home/ahmedtabl/NOVA/install/nova_gazebo/share/nova_gazebo/local_setup.bash
+[9.796s] -- Installing: /home/ahmedtabl/NOVA/install/nova_gazebo/share/nova_gazebo/local_setup.sh
+[9.796s] -- Installing: /home/ahmedtabl/NOVA/install/nova_gazebo/share/nova_gazebo/local_setup.zsh
+[9.797s] -- Installing: /home/ahmedtabl/NOVA/install/nova_gazebo/share/nova_gazebo/local_setup.dsv
+[9.798s] -- Installing: /home/ahmedtabl/NOVA/install/nova_gazebo/share/nova_gazebo/package.dsv
+[9.799s] -- Installing: /home/ahmedtabl/NOVA/install/nova_gazebo/share/ament_index/resource_index/packages/nova_gazebo
+[9.800s] -- Installing: /home/ahmedtabl/NOVA/install/nova_gazebo/share/nova_gazebo/cmake/nova_gazeboConfig.cmake
+[9.801s] -- Installing: /home/ahmedtabl/NOVA/install/nova_gazebo/share/nova_gazebo/cmake/nova_gazeboConfig-version.cmake
+[9.801s] -- Installing: /home/ahmedtabl/NOVA/install/nova_gazebo/share/nova_gazebo/package.xml
+[9.810s] Invoked command in '/home/ahmedtabl/NOVA/build/nova_gazebo' returned '0': AMENT_PREFIX_PATH=/home/ahmedtabl/NOVA/install/nova_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ahmedtabl/NOVA/install/nova_description:/opt/ros/humble /usr/bin/cmake --install /home/ahmedtabl/NOVA/build/nova_gazebo

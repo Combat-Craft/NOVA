@@ -1,0 +1,26 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ahmedtabl/NOVA/build/nova_description
+-- Install configuration: ""
+-- Installing: /home/ahmedtabl/NOVA/install/nova_description/share/nova_description/urdf
+-- Installing: /home/ahmedtabl/NOVA/install/nova_description/share/nova_description/urdf/nova_camera.urdf
+-- Installing: /home/ahmedtabl/NOVA/install/nova_description/share/nova_description/urdf/nova_gps.urdf
+-- Installing: /home/ahmedtabl/NOVA/install/nova_description/share/ament_index/resource_index/package_run_dependencies/nova_description
+-- Installing: /home/ahmedtabl/NOVA/install/nova_description/share/ament_index/resource_index/parent_prefix_path/nova_description
+-- Installing: /home/ahmedtabl/NOVA/install/nova_description/share/nova_description/environment/ament_prefix_path.sh
+-- Installing: /home/ahmedtabl/NOVA/install/nova_description/share/nova_description/environment/ament_prefix_path.dsv
+-- Installing: /home/ahmedtabl/NOVA/install/nova_description/share/nova_description/environment/path.sh
+-- Installing: /home/ahmedtabl/NOVA/install/nova_description/share/nova_description/environment/path.dsv
+-- Installing: /home/ahmedtabl/NOVA/install/nova_description/share/nova_description/local_setup.bash
+-- Installing: /home/ahmedtabl/NOVA/install/nova_description/share/nova_description/local_setup.sh
+-- Installing: /home/ahmedtabl/NOVA/install/nova_description/share/nova_description/local_setup.zsh
+-- Installing: /home/ahmedtabl/NOVA/install/nova_description/share/nova_description/local_setup.dsv
+-- Installing: /home/ahmedtabl/NOVA/install/nova_description/share/nova_description/package.dsv
+-- Installing: /home/ahmedtabl/NOVA/install/nova_description/share/ament_index/resource_index/packages/nova_description
+-- Installing: /home/ahmedtabl/NOVA/install/nova_description/share/nova_description/cmake/nova_descriptionConfig.cmake
+-- Installing: /home/ahmedtabl/NOVA/install/nova_description/share/nova_description/cmake/nova_descriptionConfig-version.cmake
+-- Installing: /home/ahmedtabl/NOVA/install/nova_description/share/nova_description/package.xml

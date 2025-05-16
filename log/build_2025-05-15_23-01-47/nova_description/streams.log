@@ -1,0 +1,17 @@
+[0.088s] Invoking command in '/home/ahmedtabl/NOVA/build/nova_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ahmedtabl/NOVA/build/nova_description -- -j4 -l4
+[1.039s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.040s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.040s] -- Added test 'lint_cmake' to check CMake code style
+[1.040s] -- Added test 'xmllint' to check XML markup files
+[1.040s] -- Configuring done
+[1.040s] -- Generating done
+[1.040s] -- Build files have been written to: /home/ahmedtabl/NOVA/build/nova_description
+[1.123s] Invoked command in '/home/ahmedtabl/NOVA/build/nova_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ahmedtabl/NOVA/build/nova_description -- -j4 -l4
+[1.156s] Invoking command in '/home/ahmedtabl/NOVA/build/nova_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ahmedtabl/NOVA/build/nova_description
+[1.194s] -- Install configuration: ""
+[1.195s] [31mCMake Error at cmake_install.cmake:46 (file):
+[1.195s]   file INSTALL cannot find "/home/ahmedtabl/NOVA/src/nova_description/src":
+[1.195s]   No such file or directory.
+[1.197s] 
+[1.197s] [0m
+[1.202s] Invoked command in '/home/ahmedtabl/NOVA/build/nova_description' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ahmedtabl/NOVA/build/nova_description

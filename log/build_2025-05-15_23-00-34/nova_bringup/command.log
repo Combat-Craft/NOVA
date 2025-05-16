@@ -1,0 +1,1 @@
+Invoking command in '/home/ahmedtabl/NOVA/build/nova_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ahmedtabl/NOVA/build/nova_bringup -- -j4 -l4

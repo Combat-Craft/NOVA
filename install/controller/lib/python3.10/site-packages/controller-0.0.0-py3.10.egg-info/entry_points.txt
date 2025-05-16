@@ -1,0 +1,6 @@
+[console_scripts]
+joystick = controller.joystick:main
+joystick_to_motor = controller.joystick_to_motor:main
+motor = controller.motor:main
+motor_driver = controller.motor_driver:main
+

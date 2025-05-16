@@ -1,0 +1,5 @@
+Invoking command in '/home/ahmedtabl/NOVA/build/nova_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ahmedtabl/NOVA/src/nova_description -DCMAKE_INSTALL_PREFIX=/home/ahmedtabl/NOVA/install/nova_description
+Invoked command in '/home/ahmedtabl/NOVA/build/nova_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ahmedtabl/NOVA/src/nova_description -DCMAKE_INSTALL_PREFIX=/home/ahmedtabl/NOVA/install/nova_description
+Invoking command in '/home/ahmedtabl/NOVA/build/nova_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ahmedtabl/NOVA/build/nova_description -- -j4 -l4
+Invoked command in '/home/ahmedtabl/NOVA/build/nova_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ahmedtabl/NOVA/build/nova_description -- -j4 -l4
+Invoking command in '/home/ahmedtabl/NOVA/build/nova_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ahmedtabl/NOVA/build/nova_description

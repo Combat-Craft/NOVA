@@ -1,0 +1,9 @@
+/home/ahmedtabl/NOVA/build/nova_description/CMakeFiles/uninstall.dir
+/home/ahmedtabl/NOVA/build/nova_description/CMakeFiles/nova_description_uninstall.dir
+/home/ahmedtabl/NOVA/build/nova_description/CMakeFiles/test.dir
+/home/ahmedtabl/NOVA/build/nova_description/CMakeFiles/edit_cache.dir
+/home/ahmedtabl/NOVA/build/nova_description/CMakeFiles/rebuild_cache.dir
+/home/ahmedtabl/NOVA/build/nova_description/CMakeFiles/list_install_components.dir
+/home/ahmedtabl/NOVA/build/nova_description/CMakeFiles/install.dir
+/home/ahmedtabl/NOVA/build/nova_description/CMakeFiles/install/local.dir
+/home/ahmedtabl/NOVA/build/nova_description/CMakeFiles/install/strip.dir

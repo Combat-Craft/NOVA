@@ -60,7 +60,7 @@ ros2 launch controller joystick.launch.py
 
 if you plan to have wireless control, make sure the following is done:
 - Both computers are on the same network (don't use wifi and use a hotspot)
-- run the following lines (on both computers) using: `echo "export ROS_DOMAIN_ID=0" >> ~/.bashrc` and `echo "export ROS_LOCALHOST_ONLY=0" >> ~/.bashrc`
+- run the following lines (on both computers): `echo "export ROS_DOMAIN_ID=0" >> ~/.bashrc` and `echo "export ROS_LOCALHOST_ONLY=0" >> ~/.bashrc`
 - restart your terminals and try now
 
 ---

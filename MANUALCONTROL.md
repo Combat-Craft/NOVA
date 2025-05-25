@@ -6,7 +6,7 @@ Before you begin, make sure you're on **Ubuntu 22.04** and have installed **ROS 
 
 # Clone the repo
 ```bash
-git clone [https://github.com/Combat-Carft/NOVA.git](https://github.com/Combat-Craft/NOVA.git)
+git clone https://github.com/Combat-Craft/NOVA.git
 ```
 ```bash
 cd NOVA

@@ -31,20 +31,14 @@ def generate_launch_description():
                 package="joy",
                 executable="joy_node",
                 name="joy_node",
-                parameters=[
-                    {
-                        "dev": joy_dev,
-                        "deadzone": 0.3,
-                        "autorepeat_rate": 0.0,
-                    }
-                ],
+                parameters=[config_filepath],
             ),
+
             launch_ros.actions.Node(
                 package="teleop_twist_joy",
                 executable="teleop_node",
                 name="teleop_twist_joy_node",
                 parameters=[config_filepath],
-                remappings=[('/joy', '/joy'), ('/cmd_vel', '/cmd_vel')]
             ),
             
              # Joystick to Motor Node (Extra node from second script)
@@ -53,10 +47,6 @@ def generate_launch_description():
                 executable="joystick_to_motor",
                 name="joystick_to_motor_node",
                 parameters=[config_filepath],
-                remappings=[
-                    ("/cmd_vel", "/cmd_vel"),
-                    ("/motor_command", "/motor_command"),
-                ],
             ),
         ]
     )

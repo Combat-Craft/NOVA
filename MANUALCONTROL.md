@@ -12,7 +12,6 @@ git clone https://github.com/Combat-Craft/NOVA.git
 cd NOVA
 ```
 
-Delete the nova_bringup, nova_gazebo, and nova_description folders since they are not needed for manual control
 ## 🔧 Dependencies
 
 Once you’ve cloned this repo, you’ll need a few additional packages installed.
@@ -21,6 +20,8 @@ Once you’ve cloned this repo, you’ll need a few additional packages installe
 sudo apt update
 sudo apt install -y \
     python3-serial \
+    ros-humble-ros-gz \
+    ros-humble-gazebo-ros-pkgs \
     python3-colcon-common-extensions
 ```
 
@@ -28,11 +29,15 @@ sudo apt install -y \
 ```bash
 source /opt/ros/humble/setup.bash
 ```
+```bash
+echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
+```
 # Build the workspace
 ```bash
 colcon build
 ```
 
+---
 After building, source the workspace and launch the controller:
 
 # Source the workspace
@@ -45,6 +50,7 @@ ros2 launch controller motor.launch.py
 ```
 
 # Run joystick
+In a different terminal, source the install folder and run:
 ```bash
 ros2 launch controller joystick.launch.py
 ```

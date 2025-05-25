@@ -1,50 +1,65 @@
-### **Step 1: Set Up Your ROS2 Workspace**
+## ✅ Prerequisites
 
-**Open a Terminal.**
+Before you begin, make sure you're on **Ubuntu 22.04** and have installed **ROS 2 Humble**.
 
-**Create a Workspace with a src Folder:**
+---
 
-`mkdir -p ~/nova_ws/src`
+# Clone the repo
+```bash
+git clone https://github.com/Combat-Craft/NOVA.git
+```
+```bash
+cd NOVA
+```
 
-`cd ~/nova_ws/src`
+## 🔧 Dependencies
 
-### **Step 2: Download the Robot Package from GitHub**
+Once you’ve cloned this repo, you’ll need a few additional packages installed.
 
-`git clone https://github.com/Combat-Craft/NOVA`
-
-### **Step 3: Ensure all dependencies are met**
-
-If necessary, input these commands to download necessary packages.
-
-`sudo apt update`
-
-`sudo apt install python3-colcon-common-extensions`
-
+```bash
+sudo apt update
+sudo apt install -y \
+    python3-serial \
+    ros-humble-ros-gz \
+    ros-humble-gazebo-ros-pkgs \
+    python3-colcon-common-extensions
+```
 `sudo apt install ros-humble-navigation2 ros-humble-nav2-core`
 
-### **Step 4: Build the Package and Source Your Workspace**
+# Source ROS 2
+```bash
+source /opt/ros/humble/setup.bash
+```
+```bash
+echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
+```
+# Build the workspace
+```bash
+colcon build
+```
 
-**Return to Your Workspace Root and Build:**
+---
+After building, source the workspace and launch the controller:
 
-`cd ..`
+# Source the workspace
+```bash
+source install/setup.bash
+```
+---
+## Controlling the robot via the PS4 Gamepad
+# Run motor controller
+```bash
+ros2 launch controller motor.launch.py
+```
 
-`colcon build --symlink-install`
+# Run joystick
+In a different terminal, source the install folder and run:
+```bash
+ros2 launch controller joystick.launch.py
+```
 
-Using the —symlink-install option means you won’t have to build it again when we make changes, only when you add a new file.
-
-Source the overlay.  IE. from the root of your workspace (in `nova_ws`) input
-
-`source install/setup.bash` 
-
-Alternatively, you can source the overlay from any folder by typing 
-
-`source ~/nova_ws/install/setup.bash`
-
-You can even echo it to your bashrc so you never have to type it again: 
-
-`echo 'source ~/nova_ws/install/setup.bash' >> ~/.bashrc`
-
-### **Step 4: Launch the Robot**
+---
+## Launching the Robot in sim
 
 Launch just the robot with 
 
@@ -60,7 +75,7 @@ For the GPS implementation and the dual Kalman filter,
 
 `ros2 launch nova_bringup gps.launch.py`
 
-### **Interacting in RViz**
+## Interacting in RViz
 
 1. **Set the Initial Pose:**
     - In RViz, click the **"2D Pose Estimate"** tool (the green arrow).

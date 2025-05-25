@@ -4,7 +4,7 @@ Before you begin, make sure you're on **Ubuntu 22.04** and have installed **ROS 
 
 ---
 
-# Clone the repo
+## Clone the repo
 ```bash
 git clone https://github.com/Combat-Craft/NOVA.git
 ```
@@ -22,18 +22,18 @@ sudo apt install -y \
     python3-serial \
     ros-humble-ros-gz \
     ros-humble-gazebo-ros-pkgs \
+    ros-humble-navigation2 ros-humble-nav2-core \
     python3-colcon-common-extensions
 ```
-`sudo apt install ros-humble-navigation2 ros-humble-nav2-core`
 
-# Source ROS 2
+## Source ROS 2
 ```bash
 source /opt/ros/humble/setup.bash
 ```
 ```bash
 echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
 ```
-# Build the workspace
+## Build the workspace
 ```bash
 colcon build
 ```
@@ -41,25 +41,25 @@ colcon build
 ---
 After building, source the workspace and launch the controller:
 
-# Source the workspace
+## Source the workspace
 ```bash
 source install/setup.bash
 ```
 ---
-## Controlling the robot via the PS4 Gamepad
-# Run motor controller
+# Controlling the robot via the PS4 Gamepad
+## Run motor controller
 ```bash
 ros2 launch controller motor.launch.py
 ```
 
-# Run joystick
+## Run joystick
 In a different terminal, source the install folder and run:
 ```bash
 ros2 launch controller joystick.launch.py
 ```
 
 ---
-## Launching the Robot in sim
+# Launching the Robot in sim
 
 Launch just the robot with 
 

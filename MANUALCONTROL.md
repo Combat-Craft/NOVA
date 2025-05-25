@@ -11,6 +11,8 @@ git clone https://github.com/Combat-Craft/NOVA.git
 ```bash
 cd NOVA
 ```
+
+Delete the nova_bringup, nova_gazebo, and nova_description folders since they are not needed for manual control
 ## 🔧 Dependencies
 
 Once you’ve cloned this repo, you’ll need a few additional packages installed.

@@ -1,0 +1,25 @@
+# NOVA ROS 2 Workspace 🚀
+
+This repository contains the NOVA robotics platform, including simulation, control, and hardware interface packages. The project is built using **ROS 2 Humble**, and supports simulation through **Gazebo**, as well as hardware-level control via **serial communication**.
+
+---
+
+## ✅ Prerequisites
+
+Before you begin, make sure you're on **Ubuntu 22.04** and have installed **ROS 2 Humble**.
+
+📦 **Install ROS 2 Humble:**
+Follow the official guide: [https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html)
+
+---
+
+## 🔧 Dependencies
+
+Once you’ve cloned this repo, you’ll need a few additional packages installed.
+
+```bash
+sudo apt update
+sudo apt install -y \
+    python3-serial \
+    ros-humble-gazebo-ros-pkgs \
+    python3-colcon-common-extensions
